@@ -19,7 +19,7 @@ export const Home = () => {
       <div className="video-container">
         <iframe
           className="youtube-video"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          src={`https://www.youtube.com/embed/${videoId}`}
           title="Motion Design for the Web | FREE COURSE"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

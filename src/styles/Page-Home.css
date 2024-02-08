@@ -1,0 +1,9 @@
+.home-page-domain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-frame {
+    flex: 1;
+    padding: 20px;
+}

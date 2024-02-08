@@ -1,8 +1,10 @@
-import { SidebarPageMenu } from "../components/SidebarPageMenu";
+import "../styles/Page-Home.css";
+
 export const Home = () => {
+  const videoId = "vqXLGX0szIQ";
+
   return (
     <div className="home-page-domain">
-      <SidebarPageMenu />
       <div className="content-frame">
         <h1 className="header-h1">Motion Design for the Web</h1>
         <span className="author">by Envato Tuts</span>
@@ -13,6 +15,15 @@ export const Home = () => {
           to level up your skills, this course will help you bring your websites
           to life.
         </p>
+      </div>
+      <div className="video-container">
+        <iframe
+          className="youtube-video"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          title="Motion Design for the Web | FREE COURSE"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );

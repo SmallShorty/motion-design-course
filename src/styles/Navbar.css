@@ -1,7 +1,7 @@
 :root {
-    --navbar-background: #ffff;
-    --navbar-text-color: #3f3f3f;
-    --navbar-accent: #868686;
+    --navbar-background: #18191b;
+    --navbar-text-color: #D0D0D1;
+    --navbar-accent: #F58120;
 }
 
 .navbar{
@@ -24,9 +24,9 @@
 
     background-color: var(--navbar-background);
 
-    -webkit-box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.15);
-    -moz-box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.15);
-    box-shadow: 0px 1px 10px 2px rgba(34, 60, 80, 0.15);
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.25);
 
     text-transform: capitalize;
 }

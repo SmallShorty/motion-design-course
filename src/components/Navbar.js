@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../styles/Page-Navbar.css";
+import "../styles/Navbar.css";
 import pages from "../pages/pages.json";
 
 export const Navbar = () => {

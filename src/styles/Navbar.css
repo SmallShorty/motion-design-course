@@ -42,13 +42,11 @@
     color: var(--navbar-text-color);
 
     text-decoration: none;
-
-    z-index: 2;
-    transition: 0.5s;
+    border-bottom: 0 solid var(--navbar-accent);
+    
 }
 
 .link:hover{
-    background-color: var(--navbar-accent);
-    color: var(--navbar-background);
+    border-bottom: 2px solid var(--navbar-accent);
 
 }

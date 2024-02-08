@@ -16,15 +16,15 @@ export const Home = () => {
           to life.
         </p>
       </div>
-      <div className="video-container">
-        <iframe
-          className="youtube-video"
-          src={`https://www.youtube.com/embed/${videoId}`}
-          title="Motion Design for the Web | FREE COURSE"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+      <iframe
+        width={560}
+        height={315}
+        className="youtube-video"
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title="Motion Design for the Web | FREE COURSE"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
     </div>
   );
 };

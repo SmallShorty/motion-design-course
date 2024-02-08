@@ -5,12 +5,14 @@ import pages from "../pages/pages.json";
 
 export const Navbar = () => {
   return (
-    <div className="header-container">
-      {pages.map((page) => (
-        <Link key={page} to={`/${page}`}>
-          {page}
-        </Link>
-      ))}
+    <div className="navbar">
+      <div className="links-container">
+        {pages.map((page) => (
+          <Link key={page} to={`/${page}`} className="link">
+            {page.charAt(0).toUpperCase() + page.slice(1)}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

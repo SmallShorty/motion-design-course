@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-import "../styles/Page-HeaderPageMenu.css";
+import "../styles/Page-Navbar.css";
 import pages from "../pages/pages.json";
 
-export const HeaderPageMenu = () => {
+export const Navbar = () => {
   return (
     <div className="header-container">
       {pages.map((page) => (

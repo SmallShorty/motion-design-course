@@ -1,7 +1,14 @@
 import "../styles/Page-Home.css";
+import { useEffect } from "react";
+import { useNavbarStyles } from "../components/useNavbarStyles";
 
 export const Home = () => {
   const videoId = "vqXLGX0szIQ";
+
+  const navbarStyles = useNavbarStyles("#18191b", "#D0D0D1", "#F58120");
+  useEffect(() => {
+    document.title = "Home";
+  }, [navbarStyles]);
 
   return (
     <div className="home-page-domain">

@@ -1,9 +1,9 @@
 @keyframes slideInFromLeft {
-    0% {
+    from {
         transform: translateX(-20%);
         opacity: 0;
     }
-    100% {
+    to {
         transform: translateX(0);
         opacity: 100%;
     }
@@ -30,7 +30,6 @@
     color: #D0D0D1;
 
     animation: 1s ease-out 0s 1 slideInFromLeft;
-
 }
 
 .header-h1{
